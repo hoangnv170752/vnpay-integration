@@ -1,0 +1,158 @@
+{
+  "domestic_cards": [
+    {
+      "id": 1,
+      "bank": "NCB",
+      "card_number": "9704198526191432198",
+      "card_holder": "NGUYEN VAN A",
+      "issue_date": "07/15",
+      "otp": "123456",
+      "status": "success",
+      "note": "Thành công"
+    },
+    {
+      "id": 2,
+      "bank": "NCB",
+      "card_number": "9704195798459170488",
+      "card_holder": "NGUYEN VAN A",
+      "issue_date": "07/15",
+      "status": "insufficient_balance",
+      "note": "Thẻ không đủ số dư"
+    },
+    {
+      "id": 3,
+      "bank": "NCB",
+      "card_number": "9704192181368742",
+      "card_holder": "NGUYEN VAN A",
+      "issue_date": "07/15",
+      "status": "not_activated",
+      "note": "Thẻ chưa kích hoạt"
+    },
+    {
+      "id": 4,
+      "bank": "NCB",
+      "card_number": "9704193370791314",
+      "card_holder": "NGUYEN VAN A",
+      "issue_date": "07/15",
+      "status": "locked",
+      "note": "Thẻ bị khóa"
+    },
+    {
+      "id": 5,
+      "bank": "NCB",
+      "card_number": "9704194841945513",
+      "card_holder": "NGUYEN VAN A",
+      "issue_date": "07/15",
+      "status": "expired",
+      "note": "Thẻ bị hết hạn"
+    },
+    {
+      "id": 12,
+      "bank": "NAPAS",
+      "card_number": "9704000000000018",
+      "card_number_alt": "9704020000000016",
+      "card_holder": "NGUYEN VAN A",
+      "issue_date": "03/07",
+      "otp": "otp",
+      "status": "success",
+      "note": "Nhóm Bank qua NAPAS - Thành công"
+    },
+    {
+      "id": 13,
+      "bank": "EXIMBANK",
+      "card_number": "9704310005819191",
+      "card_holder": "NGUYEN VAN A",
+      "expiry_date": "10/26",
+      "status": "success",
+      "note": "Thành công"
+    }
+  ],
+  "international_cards": {
+    "visa": [
+      {
+        "id": 6,
+        "type": "VISA (No 3DS)",
+        "card_number": "4456530000001005",
+        "cvv": "123",
+        "card_holder": "NGUYEN VAN A",
+        "expiry_date": "12/26",
+        "email": "test@gmail.com",
+        "address": "22 Lang Ha",
+        "city": "Ha Noi",
+        "status": "success",
+        "note": "Thành công"
+      },
+      {
+        "id": 7,
+        "type": "VISA (3DS)",
+        "card_number": "4456530000001096",
+        "cvv": "123",
+        "card_holder": "NGUYEN VAN A",
+        "expiry_date": "12/26",
+        "email": "test@gmail.com",
+        "address": "22 Lang Ha",
+        "city": "Ha Noi",
+        "status": "success",
+        "note": "Thành công"
+      }
+    ],
+    "mastercard": [
+      {
+        "id": 8,
+        "type": "MasterCard (No 3DS)",
+        "card_number": "5200000000001005",
+        "cvv": "123",
+        "card_holder": "NGUYEN VAN A",
+        "expiry_date": "12/26",
+        "email": "test@gmail.com",
+        "address": "22 Lang Ha",
+        "city": "Ha Noi",
+        "status": "success",
+        "note": "Thành công"
+      },
+      {
+        "id": 9,
+        "type": "MasterCard (3DS)",
+        "card_number": "5200000000001096",
+        "cvv": "123",
+        "card_holder": "NGUYEN VAN A",
+        "expiry_date": "12/26",
+        "email": "test@gmail.com",
+        "address": "22 Lang Ha",
+        "city": "Ha Noi",
+        "status": "success",
+        "note": "Thành công"
+      }
+    ],
+    "jcb": [
+      {
+        "id": 10,
+        "type": "JCB (No 3DS)",
+        "card_number": "3337000000000008",
+        "cvv": "123",
+        "card_holder": "NGUYEN VAN A",
+        "expiry_date": "12/26",
+        "email": "test@gmail.com",
+        "address": "22 Lang Ha",
+        "city": "Ha Noi",
+        "status": "success",
+        "note": "Thành công"
+      },
+      {
+        "id": 11,
+        "type": "JCB (3DS)",
+        "card_number": "3337000000200004",
+        "cvv": "123",
+        "card_holder": "NGUYEN VAN A",
+        "expiry_date": "12/24",
+        "email": "test@gmail.com",
+        "address": "22 Lang Ha",
+        "city": "Ha Noi",
+        "status": "success",
+        "note": "Thành công"
+      }
+    ]
+  },
+  "demo_url": "http://sandbox.vnpayment.vn/tryitnow/Home/CreateOrder",
+  "note": "Trên môi trường test (thử nghiệm) chỉ sử dụng được các thông tin thẻ theo danh sách trên. Các Ngân hàng khác do kết nối đã lâu nên môi trường test đã bị tạm đóng"
+}
